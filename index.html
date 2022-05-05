@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022 Kentucky Derby Magic 8 Ball</title>
+    <link rel="canonical" href="https://2022-derby-8ball.netlify.app/" />
+    <meta property="og:site_name" content="2022 Kentucky Derby Magic 8 Ball" />
+    <meta property="og:title" content="2022 Kentucky Derby Magic 8 Ball" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="/img/social-image.png" />
+    <meta name="twitter:image" content="/img/social-image.png" />
+    <meta property="og:image:alt" content="Decorative image for 2022 Kentucky Derby Magic 8" />
+    <meta name="twitter:image:alt" content="Decorative image for 2022 Kentucky Derby Magic 8" />
+    <meta name="description" content="Who will win the 2022 Kentucky Derby?" />
+    <meta name="twitter:description" content="Who will win the 2022 Kentucky Derby?" />
+    <meta property="og:description" content="Who will win the 2022 Kentucky Derby?" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="Exo-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="icon" href="/img/favicon.png" type="image/png" />
+  </head>
+  <body>
+  <main>
+    <h1>2022 Kentucky Derby Magic 8 Ball</h1>
+    <div id="eight-ball" class="eight-ball">
+      <article id="answer" class="answer-wrapper">
+        <!-- aria-hidden keeps the 8 from being read by screenreaders, it's removed allowing the answer to be read, see script.js -->
+        <p id="answer-container" aria-live="polite" aria-hidden="true" class="eight">8</p>
+      </article>
+    </div>
+    <span class="visually-hidden">Click or tap the button to find out</span>
+    <button onclick="derbyWinner()" id="answer-button">Who Will Win?</button>
+  </main>
+  <footer>
+    <p>Created by <a href="https://danabyerly.com">Dana Byerly</a></p>
+    <p>Hosted at <a href="https://netlify.com">Netlify</a> &mdash; <a href="https://danabyerly.com/projects/kentucky-derby-magic-8-ball/">History of the project</a></p>
+  </footer>
+  <script src="script.js" defer></script>
+  </body>
+</html>
