@@ -2,7 +2,7 @@
 
 Going to a Derby party and need someone to root for? Looking to blow some money on the ponies but don't know anything about it?
 
-The [Kentucky Derby Magic 8 Ball](link) can help!
+The [Kentucky Derby Magic 8 Ball](https://2022-derby-magic-8.netlify.app) can help!
 
 This year's Kentucky Derby is scheduled for Saturday May 7, 2022.
 
