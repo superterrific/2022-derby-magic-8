@@ -18,7 +18,7 @@ const contenders = [
   "Charge It",
   "Happy Jack",
   "Pioneer of Medina",
-  "Ethereal Road",
+  "Rich Strike",
   "No one on your tickets!"
 ];
 
