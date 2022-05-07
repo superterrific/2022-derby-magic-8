@@ -88,10 +88,6 @@ footer {
   margin-bottom: clamp(1rem, 3vw, 2rem);
 }
 
-footer p + p {
-  margin-top: .65rem;
-}
-
 h1 {
   font-weight: 500;
   font-size: 2.2rem;
@@ -163,13 +159,14 @@ a:focus {
 
 /* Button ------------------------------------------------------------ */
 button {
-  padding: 1.25rem;
   background-color: var(--button-bg);
+  color: var(--color-darkest);
   border: 3px solid var(--button-border);
   border-radius: 1.5rem;
   cursor: pointer;
   font-size: 1.3rem;
   font-weight: 500;
+  padding: 1.25rem;
   letter-spacing: .15rem;
   box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.2), 0 2px 2px -2px rgba(0, 0, 0, 0.05);
 }
