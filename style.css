@@ -72,12 +72,13 @@ body {
 }
 
 main {
-  padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   align-items: center;
   margin: auto 0;
+  padding: 1rem;
+  padding: clamp(.5rem, 3vw, 1rem);
 }
 
 footer {
