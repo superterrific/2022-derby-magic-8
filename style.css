@@ -44,7 +44,7 @@
     --link-hover-text: var(--color-lightest);
     --answer-bg-dark: var(--color-accent-darkest);
     --answer-bg-light: var(--color-accent-dark);
-    --button-border: var(--color-accent-light);
+    /* --button-border: var(--color-grey-lightest); */
     --button-bg: var(--color-grey-light);
     --button-shadow: unset;
     --button-border-focus: var(--color-accent-dark);
